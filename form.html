@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+
+    <!-- Form 1 -->
+    <form>
+        <fieldset>
+            <legend>Event Registration</legend>
+            <br>
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" id="name">
+            <br>
+            <br>
+
+            <label for="email">Email:</label>
+            <br>
+            <input type="text" id="email">
+            <br>
+            <br>
+
+            <label for="phone">Phone:</label>
+            <br>
+            <input type="text" name="phone" id="phone">
+            <br>
+            <br>
+
+            <label for="Occupation">Occupation</label>
+            <br>
+            <select name="Occupation" id="Occupation">
+                <option value="Other">Other</option>
+                <option value="farmar">farmar</option>
+                <option value="Buissnessman">Buissnessman</option>
+            </select>
+            <br>
+            <br>
+
+            <fieldset>
+                <legend>Topic of Intrest:</legend>
+
+                <input type="checkbox" name="checkbox" id="html">
+                <label for="html">HTML</label>
+                <br>
+
+                <input type="checkbox" name="checkbox" id="CSS">
+                <label for="CSS">CSS</label>
+                <br>
+
+                <input type="checkbox" name="checkbox" id="javascript">
+                <label for="javascript">javascript</label>
+            </fieldset>
+            <br>
+            <br>
+
+            <label for="comments">Comments:</label>
+            <br>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+
+            <button>Registration</button>
+        </fieldset>
+    </form>
+    <br>
+    <br>
+
+    <!-- Form 2 -->
+    <form>
+        <fieldset>
+            <legend>Job Application</legend>
+            <br>
+
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" id="name">
+            <br>
+            <br>
+
+            <label for="email">Email:</label>
+            <br>
+            <input type="text" id="email">
+            <br>
+            <br>
+
+            <label for="phone">Phone:</label>
+            <br>
+            <input type="text" name="phone" id="phone">
+            <br>
+            <br>
+
+            <label for="resume">Resume:</label>
+            <br>
+            <input type="file" name="resume" id="resume">
+            <br>
+            <br>
+
+            <label for="experience">Experience(Years):</label>
+            <br>
+            <input type="number" name="counter" id="experience" min="0" max="50">
+            <br>
+            <br>
+
+            <label for="education">Highest Education</label>
+            <br>
+            <select name="education" id="education">
+                <option value="highschool">High School</option>
+                <option value="lowschool">Low School</option>
+            </select>
+            <br>
+            <br>
+
+            <fieldset>
+                <legend>Skills:</legend>
+
+                <input type="checkbox" name="checkbox" id="html">
+                <label for="html">HTML</label>
+                <br>
+
+                <input type="checkbox" name="checkbox" id="CSS">
+                <label for="CSS">CSS</label>
+                <br>
+
+                <input type="checkbox" name="checkbox" id="javascript">
+                <label for="javascript">javascript</label>
+            </fieldset>
+            <br>
+            <br>
+
+            <label for="available">Availablity:</label>
+            <br>
+            <div id="available">
+                <input type="radio" name="available" id="full_time">
+                <label for="full_time">Full time</label>
+                <br>
+                
+                <input type="radio" name="available" id="part_time">
+                <label for="part_time">Part time</label>
+            </div>
+            <br>
+            <br>
+
+            <label for="comments">Additional Comments:</label>
+            <br>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+
+            <button>Submit Application</button>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
